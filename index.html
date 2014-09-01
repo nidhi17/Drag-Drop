@@ -1,0 +1,24 @@
+!DOCTYPE HTML>
+<html>
+<head>
+<title>Drag and Drop</title>
+<link rel="stylesheet" href="css/style.css" type="text/css"/>
+<script src="js/dragdrop.js" type="text/javascript"></script>
+</head>
+<body>
+<h3>Drag apple from Basket A to Basket B</h3>
+<div class="basketBlockA">
+<p>Basket A</p>
+<div id="basketA">	
+	<img id="drag1" src="image/apple-new.png" draggable="true" ondragstart="dragEle(event)" width="30" height="30">
+	<img id="drag2" src="image/apple-new.png" draggable="true" ondragstart="dragEle(event)" width="30" height="30">
+	<img id="drag3" src="image/apple-new.png" draggable="true" ondragstart="dragEle(event)" width="30" height="30">
+	<img id="drag4" src="image/apple-new.png" draggable="true" ondragstart="dragEle(event)" width="30" height="30">
+</div>
+</div>
+<div class="basketBlockB" >
+<p>Basket B</p>
+<div id="basketB" ondrop="dropEle(event)" ondragover="allowDropEle(event)"></div>
+</div>
+</body>
+</html>
