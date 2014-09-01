@@ -1,5 +1,0 @@
-html{font-family:Arial;}
-.basketBlockA, .basketBlockB{float:left;}
-#basketA, #basketB{width:250px;height:70px;padding:10px;border:1px solid #aaaaaa; float:left; margin-right:10px}
-#basketA p, #basketB p{margin:0; padding:0;}
-#basketA img, #basketB img{margin:0; padding:5px 0;}
